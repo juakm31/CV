@@ -1,0 +1,498 @@
+@media (min-width: 1281px) {
+/*----------------------------------------------------------------------------------------------*/
+/*Estructura*/
+
+#container {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+#aside {
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+
+#section {
+  width: 37%;
+  float: right;
+  text-align: left;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*Titulos*/
+
+.titulosAside {
+  color: #55b93d;
+}
+
+.titulosSection{
+  color: white;
+  background: #494b48;
+  padding: 4px 10px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*Contenido*/
+
+.fechaExperiencia{
+  width: 20%;
+  float: left;
+}
+
+#fechaExperiencia {
+  width: 20%;
+}
+
+#descripcionExperiencia{
+  width: 80%;
+  float: right;
+}
+
+#tituloEstudio{
+  color: #26a9d0;
+}
+
+.estudio{
+  margin-bottom: 15px;
+}
+
+#tituloTrabajo{
+  text-align: center;
+}
+
+#idiomaEspecifico{
+  width: 50%;
+  float: left;
+}
+
+#puntuacion{
+  width: 50%;
+  float: left;
+}
+
+.listadoIdiomas{
+
+}
+
+#descEstudio{
+  width: 80%;
+  float: left;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*Imagenes*/
+
+#imgEstudio{
+  width: 17%;
+  height: 170px;
+  float: left;
+}
+
+#mapa {
+  width: 100%;
+  height: 100px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*Listas*/
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+li { 
+  /*font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  */
+}
+
+li::before {
+  content: ">";
+  padding-right: 8px;
+}
+
+.liazul{
+  color: #26a9d0;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*Puntuación*/
+
+label{ color:grey;}
+
+input[type = "radio"]{ display:none;}
+
+.clasificacion{
+  direction: rtl;/* right to left */
+  unicode-bidi: bidi-override;/* bidi de bidireccional */
+}
+
+.clasificacionEspañol label .radio1{
+  color: #26a9d0;
+}
+
+label:hover{color:#55b93d;}
+
+label:hover ~ label{color:orange;}
+
+input[type = "radio"]:checked ~ label{color:orange;}
+
+.filaSection {
+  color: white;
+  background-color: #494b48;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.redes {
+  width: 18%;
+  height: 10%;
+  padding: 10px;
+}
+
+.referencias {
+  padding: 0px;
+  margin: 0px;
+}
+
+#foto {
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 300px;
+}
+
+#nombres {
+  color: #26a9d0;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+#pln{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: -webkit-xxx-large;
+}
+
+#pla{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 65px;
+}
+
+#cuadro{
+    width: 45px;
+    height: 200px;
+    background: rgb(0, 132, 255);
+    float: left;
+}
+
+#nombre{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 132, 255);
+    font-size: -webkit-xxx-large;
+    margin: 0px 14px;
+}
+
+#apellido{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+}
+
+#cuerpoCompleto{
+    clear: both;
+}
+
+.cargo{
+    color: #2C90AD;
+    padding: 0px;
+    margin: 0px;
+}
+
+.empresa{
+    padding: 0px;
+    margin: 0px;
+}
+
+.informacionExperiencia{
+    padding: 10px;
+    margin: 10px;
+}
+
+.listaHabilidades{
+    width: 50%;
+    float: left;
+}
+
+
+
+  #imgEstudios{
+      
+  }
+
+  #contacto{
+    text-align: right;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 1024px) {
+  /*----------------------------------------------------------------------------------------------*/
+/*Estructura*/
+
+#container {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+#aside {
+  text-align: left;
+  margin-bottom: 260px;
+}
+
+#section {
+  text-align: left;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*Titulos*/
+
+.titulosAside {
+  color: #55b93d;
+}
+
+.titulosSection{
+  color: white;
+  background: #494b48;
+  padding: 4px 10px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*Contenido*/
+
+.fechaExperiencia{
+  width: 20%;
+  float: left;
+}
+
+#fechaExperiencia {
+  width: 20%;
+}
+
+#descripcionExperiencia{
+  width: 80%;
+  float: right;
+}
+
+#tituloEstudio{
+  color: #26a9d0;
+}
+
+.estudio{
+  margin-bottom: 15px;
+}
+
+#tituloTrabajo{
+  text-align: center;
+  margin-top: 240px;
+  margin-left: 10px;
+}
+
+#idiomaEspecifico{
+  width: 50%;
+  float: left;
+}
+
+#puntuacion{
+  width: 50%;
+  float: left;
+}
+
+.listadoIdiomas{
+
+}
+
+#descEstudio{
+  width: 80%;
+  float: left;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*Imagenes*/
+
+#imgEstudio{
+  width: 17%;
+  height: 170px;
+  float: left;
+}
+
+#mapa {
+  width: 100%;
+  height: 100px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*Listas*/
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+li { 
+  /*font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  */
+}
+
+li::before {
+  content: ">";
+  padding-right: 8px;
+}
+
+.liazul{
+  color: #26a9d0;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*Puntuación*/
+
+label{ color:grey;}
+
+input[type = "radio"]{ display:none;}
+
+.clasificacion{
+  direction: rtl;/* right to left */
+  unicode-bidi: bidi-override;/* bidi de bidireccional */
+}
+
+.clasificacionEspañol label .radio1{
+  color: #26a9d0;
+}
+
+label:hover{color:#55b93d;}
+
+label:hover ~ label{color:orange;}
+
+input[type = "radio"]:checked ~ label{color:orange;}
+
+.filaSection {
+  color: white;
+  background-color: #494b48;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.redes {
+  width: 18%;
+  height: 10%;
+  padding: 10px;
+}
+
+.referencias {
+  padding: 0px;
+  margin: 0px;
+}
+
+#foto {
+  float: right;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: 50%;
+  height: 210px;
+}
+
+#nombres {
+  color: #26a9d0;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+#pln{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: -webkit-xxx-large;
+}
+
+#pla{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 65px;
+}
+
+#cuadro{
+    height: 200px;
+    width: 50px;
+    background: rgb(0, 132, 255);
+    float: left;
+}
+
+#nombre{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 132, 255);
+    font-size: -webkit-xxx-large;
+    margin: 0px 14px;
+}
+
+#apellido{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+}
+
+#cuerpoCompleto{
+    clear: both;
+}
+
+.cargo{
+    color: #2C90AD;
+    padding: 0px;
+    margin: 0px;
+}
+
+.empresa{
+    padding: 0px;
+    margin: 0px;
+}
+
+.informacionExperiencia{
+    padding: 10px;
+    margin: 10px;
+}
+
+.listaHabilidades{
+    width: 50%;
+    float: left;
+}
+
+
+
+  #imgEstudios{
+      
+  }
+
+  #contacto{
+    text-align: left;
+  }
+}
